@@ -166,7 +166,7 @@ nav {
   letter-spacing: 0.1875px;
 
   color: #48555b;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .history-descrp {
   font-size: 13px;
@@ -182,6 +182,7 @@ nav {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  padding-bottom: 115px;
 }
 .we {
   display: flex;
@@ -213,4 +214,159 @@ nav {
   letter-spacing: 0.1875px;
 
   color: #ffffff;
+}
+
+/* ===============SERVICES================ */
+
+.our-services {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.our-services .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+
+  letter-spacing: 2.30625px;
+
+  color: #48555b;
+  margin-right: 145px;
+}
+
+.our-services .title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--activity-text-color);
+  margin-top: 10px;
+}
+
+.service-descrpt {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+
+  letter-spacing: 0.2px;
+
+  color: #48555b;
+  max-width: 385px;
+  width: 100%;
+  margin-right: 42px;
+}
+.button {
+  display: block;
+  cursor: pointer;
+  background-color: var(--activity-text-color);
+  border: 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+
+  padding: 11px 29px;
+  transition: background-color 250ms;
+}
+.button:hover {
+  background-color: rgba(30, 144, 255, 0.5);
+}
+
+/* ============SERVICE-LIST================ */
+
+.service-list {
+  display: flex;
+}
+
+.services .title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.426667px;
+
+  color: #48555b;
+  margin-bottom: 13px;
+}
+
+.services .direct {
+  font-size: 13px;
+  line-height: 23px;
+
+  letter-spacing: 0.1875px;
+
+  color: #48555b;
+}
+.service-list .item {
+  border: 1px solid #e6e6e6;
+  padding: 38px 17px;
+  margin-right: 28px;
+}
+.service-list .item:last-child {
+  margin-right: 0;
+}
+
+.service-list .item::before {
+  content: "";
+  display: block;
+  height: 75px;
+  width: 100%;
+  background-image: url(../svg/1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 25px;
+}
+.service-list .item:nth-child(2)::before {
+  background-image: url(../svg/2.svg);
+}
+.service-list .item:nth-child(3)::before {
+  background-image: url(../svg/3.svg);
+}
+.services-section {
+  padding-bottom: 115px;
+}
+
+/* ===========JOING================= */
+
+.joing {
+  width: 100%;
+  background-image: url(../img/bg_bottom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.join-title {
+  width: 325px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #48555b;
+  padding-top: 120px;
+  margin-bottom: 35px;
+}
+.join-button {
+  display: block;
+  cursor: pointer;
+  background-color: var(--activity-text-color);
+  border: 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+
+  color: #ffffff;
+
+  padding: 11px 26px;
+  transition: background-color 250ms;
+  margin: 0 auto;
+}
+.hero-bottom {
+  padding-bottom: 242px;
 }
